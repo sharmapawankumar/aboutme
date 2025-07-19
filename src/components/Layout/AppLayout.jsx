@@ -6,6 +6,7 @@ import { useLocation } from "react-router";
 
 const AppLayout = () => {
   const location = useLocation();
+  console.log("Current location:", location.pathname);
 
   if (location.pathname === "/contactaa") {
     return (
